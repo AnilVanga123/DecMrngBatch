@@ -1,4 +1,4 @@
-package Dec31_3;
+ package Dec31_3;
 
 import java.util.List;
 
@@ -27,6 +27,7 @@ public class Checking_Itms {
 		if (eachitem.equalsIgnoreCase(Expitem)) {
 			itemexist=true;
 			break;
+
 		}
 	}
 	if (itemexist) {
